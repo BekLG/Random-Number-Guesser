@@ -9,16 +9,26 @@ Make sure you have Docker installed on your machine. If not, you can download it
 ## Setup
 
 ### Clone the repository
-
-Clone the repository to your local machine using Git:
+Clone the repository to your local machine:
 
 ```bash
 git clone <repository_url>
+```
+
+### Navigate to the project directory:
+
+
+```bash
 cd project-folder
+```
+### Build and start the containers:
+
+
+```bash
 docker-compose up --build
-http://localhost:5000
+```
+### Open your browser and navigate to:
+```bash
+http://localhost:8000
+```
 
-
-### Clone the repository
-
-### Clone the repository
