@@ -1,0 +1,18 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./frontend/templates:/app/templates
+      - ./frontend/static:/app/static
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend/static:/usr/share/nginx/html/static
+      - ./frontend/templates:/usr/share/nginx/html/templates
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
