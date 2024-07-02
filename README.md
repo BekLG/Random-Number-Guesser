@@ -4,7 +4,7 @@ This project contains a simple Random Number Guessing Game. The frontend is a st
 
 ## Prerequisites
 
-Make sure you have Docker installed on your machine. If not, you can download it from [Docker's official website](https://www.docker.com/get-started).
+Make sure you have Docker installed.
 
 ## Setup
 
